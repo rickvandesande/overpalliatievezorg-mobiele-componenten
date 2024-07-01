@@ -1,0 +1,134 @@
+:root {
+    --primary-color-800: #173395;
+    --primary-color-300: #95baff;
+    --touch-color-300: #ff89bc;
+    --secondary-color-500: #f1ece3;
+    --secondary-color-300: #d2e1ff;
+}
+* {
+    box-sizing: border-box;
+}
+ul, li {
+    padding:0px;
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 600;
+}
+h2 {
+    margin: 0px;
+    font-size: 26px;
+    font-weight: 600;
+}
+body {
+    color: var(--primary-color-800);
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1024px;
+    border: 1px solid hotpink;
+    margin: auto;
+}
+.featured-content {
+    background-color: var(--secondary-color-500);
+    padding: 40px 50px;
+}
+.featured-content-item {
+    text-align: center;
+    border-bottom: 3px solid var(--touch-color-300);
+    padding: 40px 0px;
+}
+.featured-content-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.button {
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color-800);
+    color: #ffffff;
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 35px;
+    line-height: 35px;
+    width: fit-content;
+    min-width: 132px;
+    margin: 27px auto 0;
+}
+.blue {
+    background-color: var(--secondary-color-300);
+}
+.breakout {
+    width: 100%;
+    padding: 40px 0px;
+}
+.featured-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-page__content {
+    margin: 30px;
+    text-align: center;
+}
+.featured-page__media {
+    width: 528px;
+    height: 528px;
+    background-size: cover;
+    background-position: center;
+}
+.left {
+    border-radius: 0px 50% 50% 50%;
+}
+.right {
+    border-radius: 50% 50% 0px 50%;
+}
+.featured-page__button {
+    min-width: 200px;
+    background-color: transparent;
+    color: var(--primary-color-800);
+    border: 2px solid var(--touch-color-300);
+    height: 40px;
+}
+.taupe {
+    background-color: var(--secondary-color-500);
+}
+.widget-image-container {
+    background-image: url(https://overpalliatievezorg.nl/getmedia/804b9742-94e2-4878-a675-4e0d33fc0371/stervensfase.jpg);
+    width: 100%;
+    height: 528px;
+    background-size: cover;
+    background-position: top;
+    margin-top: -30%;
+}
+
+.image-left-text-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    border-top-left-radius: 47px;
+    padding: 100px;
+    margin: 150px 0;
+    margin-left: 5%;
+}
+.button--transparent {
+    display: inline-block;
+    border: 2px solid var(--touch-color-300);
+    color: var(--primary-color-800);
+    text-decoration: none;
+    min-width: 200px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 35px;
+}
+.widget-text-container {
+    text-align: center;
+}
